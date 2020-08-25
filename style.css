@@ -1,4 +1,4 @@
-* {
+ * {
   box-sizing: border-box;
 }
 
@@ -76,6 +76,15 @@ footer {
 footer p {
   color: white;
   text-align: center;
+}
+
+form label {
+  display: block;
+}
+
+form input, form textarea {
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 /* for larger screens */
