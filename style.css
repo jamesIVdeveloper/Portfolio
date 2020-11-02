@@ -27,13 +27,16 @@ header h1 {
 header nav {
   display: flex;
   justify-content: center;
+  margin-right: 10px;
 }
 
 header nav ul {
   padding-left: 0;
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   list-style: none;
-  padding-left: 0;
+  padding-right: 0;
 }
 
 header nav ul li a {
@@ -61,10 +64,28 @@ h2 {
 
 h3 {
   color: crimson;
+  display: flex;
+  justify-content: center;
 }
 
 p {
   line-height: 1.5em;
+}
+
+#project {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#apps-l {
+  border-style: solid;
+  justify-content: flex-start;
+}
+
+#apps-r {
+  border-style: solid;
+  justify-content: flex-end;
 }
 
 /* footer */
