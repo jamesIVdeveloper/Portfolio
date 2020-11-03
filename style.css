@@ -63,7 +63,7 @@ h2 {
 }
 
 h3 {
-  color: crimson;
+  color: black;
   display: flex;
   justify-content: center;
 }
@@ -75,17 +75,20 @@ p {
 #project {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
+  padding: 10px;
 }
 
-#apps-l {
+#apps {
   border-style: solid;
-  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
 }
 
-#apps-r {
-  border-style: solid;
-  justify-content: flex-end;
+#contact-me {
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 /* footer */
