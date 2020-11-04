@@ -68,18 +68,23 @@ h3 {
   justify-content: center;
 }
 
+h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 p {
   line-height: 1.5em;
 }
 
 #project {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 10px;
+  flex-direction: column;
 }
 
 #apps {
+  margin: 10px;
+  padding: 0px 5px 10px 5px;
   border-style: solid;
   display: flex;
   flex-direction: column;
@@ -148,6 +153,10 @@ form input, form textarea {
     width: 80%;
   }
 
+  #project {
+    flex-wrap: wrap;
+  }
+
   .item {
     flex: 1;
   }
@@ -156,3 +165,4 @@ form input, form textarea {
     flex: 2;
   }
 }
+
